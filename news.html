@@ -67,26 +67,69 @@
                 margin-left: 8px;
                 margin-right: 8px;
             }
+          #border1 {
+              border-color: red;
+              border-top: 6px solid;
+              color: red;
+          }
+          table {
+                font-family: arial, sans-serif;
+                border-collapse: collapse;
+                width: 80%;
+                align-self: center;
+          }
 
+          td, th {
+                border: 1px solid #dddddd;
+                text-align: left;
+                padding: 8px;
+            }
+
+          tr:nth-child(even) {
+                background-color: red;
+            }
 
         </style>
     </head>
 
-    <body>
+      <body style="text-align: center;">
 
         <img id="title" src="title.png" style="width: 100%; height: 100%">
 
         <div id="rediv">
-        <a href="index.html"><button class="button">Home</button></a>
-        <a href="info.html"><button class="button">Info</button></a>
-        <a href="news.html"><button class="button">Solution</button></a>
+            <a href="index.html"><button class="button">Home</button></a>
+            <a href="info.html"><button class="button">Info</button></a>
+            <a href="news.html"><button class="button">Solution</button></a>
         </div>
 
 
 
-        <h1><strong>Fake news swirling around the world today</strong></h1>
-        <p> When it was created, fake news were usually looked at with a less serious tone, as the news were often far away from the truth and
-        recognizable with common sense. However, the current use of it to fool the public is a serious issue, and it needs to be solved for the benefit of all the stakeholders. </p>
+        <h1 style="font-family: arial"><strong>Fake news swirling around the world today</strong></h1>
+          <hr id="border1" style="width: 65%">
+        <p style="max-width: 85%; padding-right: 7.5%; padding-left: 7.5%"><strong>  When it was created, fake news were usually looked at with a less serious tone, as the news were often far away from the truth and
+        recognizable with common sense. However, the current use of it to fool the public is a serious issue, and it needs to be solved for the benefit of all the stakeholders. </strong> </p>
+          <hr id="border1" style="width: 50%">
+          <h2 style="font-family: arial"><strong> Some possible solutions</strong></h2>
+          <table align="center">
+              <tr>
+                  <th> Solution</th>
+                  <th> Description</th>
+                  <th> Advantages</th>
+                  <th> Disadvantages</th>
+              </tr>
+              <tr>
+                  <td> Fact checking </td>
+                  <td> Police become main outlet of news</td>
+                  <td> Shut down the Internet</td>
+                  <td> Government fact checks</td>
+              </tr>
+              <tr>
+                  <td> The reader uses reliable websites that specializes in determining what is true and false by using careful research</td>
+                  <td> The police creates news sites and other media outlets</td>
+                  <Td> The internet is shut down, preventing any news being spread, untrue or otherwise</Td>
+                  <td> The government controls and verifies the news that are brought out</td>
+              </tr>
+          </table>
         <script>
 
         </script>
