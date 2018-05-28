@@ -1,0 +1,141 @@
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Main Page</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+   <link rel="icon" href="index%20tt.png">
+        <style type="text/css">
+            body {
+                width: auto;
+                margin-left: 0;
+                margin-right: 0;
+                margin-top: 0;
+                padding-left: 4px;
+                padding-right: 4px;
+                padding-top: 4px;
+                text-align: center;
+                align-content: center;
+
+            }
+
+            h3 {
+                font-family: arial;
+            }
+
+            input {
+                font-family: inherit;
+            }
+
+            #button {
+                box-shadow: none;
+                border: none;
+
+            }
+
+            .button {
+                text-decoration: none;
+                color: white;
+                background-color: red;
+                border: 2px solid red;
+                border-spacing: 0;
+                padding: 0;
+                font-family: sans-serif bold;
+                font-size: 16pt;
+            }
+
+            .button:hover {
+                color: white;
+                background-color: darkred;
+                border: 2px solid darkred;
+                width: auto;
+            }
+
+            #rediv {
+                background-color: red;
+                color: red;
+                width: auto;
+            }
+
+            p {
+                font-family: sans-serif;
+                font-size: 100%;
+                margin: 0;
+                margin-left: 8px;
+                margin-right: 8px;
+            }
+
+            #dbal {
+                text-align: center;
+                width: 100%;
+            }
+
+            #red {
+                border-color: red;
+                border-top: 6px solid;
+                color: red;
+            }
+
+        </style>
+    </head>
+
+    <body style="text-align: center;">
+
+        <img id="title" src="title.png" style="width: 100%; height: 100%">
+
+        <div id="rediv">
+            <a href="index.html"><button class="button">Home</button></a>
+            <a href="info.html"><button class="button">Info</button></a>
+            <a href="news.html"><button class="button">Solution</button></a>
+            <a href="survey2.html"><button class="button">Survey</button></a>
+        </div>
+
+        <p style="padding-top: 15px;">
+            <strong>This survey is designed to test the public awareness around fake news. All answers are anonymous.</strong>
+        </p>
+
+        <h1 style="margin-top: 15px; font-family: arial; width: 100%; background-color: red; color: white; height: 5%"><strong>News Survey</strong></h1>
+
+        <div>
+            <form>
+                <h3>How aware would you say you are about fake news?</h3>
+                    <input type="radio" name="knowledge" value="very">Very aware
+                    <input type="radio" name="knowledge" value="somewhat">Somewhat aware
+                    <input type="radio" name="knowledge" value="newbie">Newbie
+                    <input type="radio" name="knowledge" value="idiot">Idiot
+                <br><br>
+                <h3>Do you notice fake news in your everyday life?</h3>
+                    <input type="radio" name="everyday" value="vyes">Yes, a lot
+                    <input type="radio" name="everyday" value="yes">Yes, sometimes
+                    <input type="radio" name="everyday" value="no">No, not at all
+                <br><br>
+                <h3>Do you think fake news is a problem in today's society?</h3>
+                    <input type="radio" name="problem" value="yes">Yes
+                    <input type="radio" name="problem" value="no">No
+                <br><br>
+                <h3>Can you give an example of a news site you would consider unreliable?</h3>
+                    <input type="text" name="example" value="Example">
+                <br><br>
+                <h3>Would you say you generally trust the media?</h3>
+                    <input type="radio" name="trust" value="yes">Yes
+                    <input type="radio" name="trust" value="no">No
+                <br><br>
+                <h3>How often do you visit news sites?</h3>
+                    <input type="radio" name="visit" value="often">All the time
+                    <input type="radio" name="visit" value="koften">Often
+                    <input type="radio" name="visit" value="sometimes">Sometimes
+                    <input type="radio" name="visit" value="never">Never
+                <br><br>
+                <h3>What kind of news do you look for?</h3>
+                    <input type="radio" name="news" value="sports">Sports
+                    <input type="radio" name="news" value="political">Political
+                    <input type="radio" name="news" value="gaming">Games
+                    <input type="radio" name="news" value="international">International
+                    <input type="radio" name="news" value="other">Other
+            </form>
+        </div>
+        <script>
+
+        </script>
+    </body>
+</html>
