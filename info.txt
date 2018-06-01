@@ -1,0 +1,6 @@
+ Year 		-	smallint
+ Knowledge	-	varchar
+ Everyday	-	varchar
+ Problem	-	varchar
+ Visit		- 	varchar
+ News		-	varchar
